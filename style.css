@@ -1,0 +1,175 @@
+* {
+    font-family: 'Handlee', cursive;
+    font-weight: 1000;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+}
+
+.navbar {
+    z-index: 1;
+    display: flex;
+    position: fixed;
+    top: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 14%;
+    width: 100%;
+    align-items: center;
+}
+
+.navbar a {
+    width: 9rem;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 16px;
+    margin-right: .2rem;
+}
+
+a:hover {
+    color: rgb(245, 196, 73);
+}
+
+.mainbox {
+    position: relative;
+    display: flex;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.7) url(back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    width: 100%;
+    height: 100vh;
+}
+
+.icon1 {
+    margin: 1px;
+}
+
+.firsthalf p {
+    color: white;
+    margin-left: 26px;
+}
+
+.buttons1 {
+    color: white;
+    margin-left: 26px;
+    background: none;
+    border: 2px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 10px 24px;
+}
+
+.buttons2 {
+    padding: 10px 24px;
+    color: white;
+    background: none;
+    border: 2px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+section{
+    height: 50%;
+}
+
+.buttons1:hover {
+    color: rgb(245, 196, 73);
+}
+
+.buttons2:hover {
+    color: rgb(245, 196, 73);
+}
+
+.bigtext {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.secright {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 7px;
+}
+
+.secleft {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    width: 80%;
+    margin: 7px;
+    margin-top: -80px;
+    margin-bottom: -100px;
+    margin-left: 144px;
+}
+
+.paras {
+    padding: 51px;
+    margin: -34px;
+}
+
+.thumbnail img {
+    border: 2px solid black;
+    border-radius: 9px;
+    width: 400px;
+}
+
+.thumbnail img:hover {
+    box-shadow: 8px 8px 53px rgb(245, 196, 73);
+    cursor: pointer;
+}
+
+.image-resize img {
+    width: 349px;
+}
+
+.order {
+    font-size: 15px;
+    padding: 10px 24px;
+    color: black;
+    background: none;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.order:hover {
+    color: rgb(209 158 30);
+}
+
+footer{
+    left: 0;
+    width: 100%;
+}
+
+.textfooter {
+    padding: 31px;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: antiquewhite;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(209 158 30);
+    border-radius: 8px;
+}
